@@ -68,7 +68,7 @@ const Chart: FC<ChartProps> = ({
 			<div className="flex">
 				<h1 className="font-bold text-gray-800 mb-3 ml-3">{title}</h1>
 			</div>
-			<div className="h-[20rem]">
+			<div className="h-[20rem] mt-3">
 				<ResponsiveContainer width="100%">
 					<CurrentChart
 						data={data}

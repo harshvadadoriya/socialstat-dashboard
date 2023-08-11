@@ -25,3 +25,11 @@ export type SideBarRouteType = {
 	path: `/${string}`;
 	icon: IconType;
 }[];
+
+export type TypeCountriesData = {
+	id: number;
+	name: string;
+	visitors: number;
+	usersPercentage: string;
+	color: string;
+}[];

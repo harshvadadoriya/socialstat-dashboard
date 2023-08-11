@@ -1,7 +1,8 @@
 import React from 'react';
 import Social from '../social';
 import Statistic from '../statistic';
-import Visitor from '../visitor/Visitor';
+import Visitor from '../visitor';
+import Map from '../map';
 
 const Home = () => {
 	return (
@@ -9,6 +10,7 @@ const Home = () => {
 			<Social />
 			<Statistic />
 			<Visitor />
+			<Map />
 		</>
 	);
 };
