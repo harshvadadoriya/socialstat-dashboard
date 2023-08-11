@@ -29,13 +29,13 @@ const Header = () => {
 			</form>
 			<div className="flex items-center space-x-14">
 				<div className="group inline-block">
-					<button className="outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-[9rem]">
+					<button className="outline-none rounded-md focus:outline-none border px-3 py-1 bg-white flex items-center min-w-[9rem]">
 						<span className="pr-1 font-semibold flex-1">PewDiePie</span>
 						<BiSolidDownArrow className="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" />
 					</button>
 					<ul className="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-[9rem]">
 						<li className="rounded-sm px-3 py-1 hover:bg-gray-100">
-							Programming
+							Discovery
 						</li>
 						<li className="rounded-sm px-3 py-1 hover:bg-gray-100">T-Series</li>
 						<li className="rounded-sm px-3 py-1 hover:bg-gray-100">Sony</li>
@@ -43,17 +43,19 @@ const Header = () => {
 					</ul>
 				</div>
 				<div className="flex items-center space-x-4">
-					<div>
-						<button className="bg-white p-2 rounded-full hover:bg-gray-100 focus:outline-none">
-							<IoMdNotificationsOutline size={20} />
+					<div className="relative">
+						<button className="bg-white p-2 rounded-full">
+							<IoMdNotificationsOutline size={23} />
 						</button>
+						<span className="absolute top-[0.7rem] right-[0.8rem] h-[0.4rem] w-[0.4rem] bg-primary-red-dark rounded-full"></span>
 					</div>
+
 					<div>
-						<button className="bg-white p-2 rounded-full hover:bg-gray-100 focus:outline-none">
+						<button className="bg-white p-2 rounded-full">
 							<AiOutlineSetting size={20} />
 						</button>
 					</div>
-					<div className="relative h-8 w-8">
+					<div className="relative h-8 w-8 cursor-pointer">
 						<img
 							className="h-full w-full rounded-full object-cover object-center"
 							src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"

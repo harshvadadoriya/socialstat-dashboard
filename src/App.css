@@ -1,11 +1,14 @@
-/* .sidebar-nav a.active {
-	text-align: left;
-} */
-.sidebar-nav .active {
+.sidebar-nav li:hover {
+	background-color: rgb(255, 229, 231);
+}
+
+.sidebar-nav .active,
+.sidebar-nav li:hover {
 	position: relative;
 }
 
-.sidebar-nav .active::before {
+.sidebar-nav .active::before,
+.sidebar-nav li:hover::before {
 	content: '';
 	position: absolute;
 	left: 0;

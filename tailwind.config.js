@@ -6,6 +6,7 @@ export default {
 			colors: {
 				'primary-red-light': 'rgb(255, 242, 242)',
 				'primary-red-dark': 'rgb(255, 91, 90)',
+				'primary-green-dark': 'rgb(0,162,138)',
 			},
 		},
 	},
