@@ -9,9 +9,9 @@ const Social = () => {
 					className="w-full flex justify-center items-center hover:bg-primary-red-dark hover:text-white text-gray-700 cursor-pointer rounded-lg"
 					key={id}
 				>
-					<div className="flex flex-col items-center">
-						<Icon size={25} />
-						<p>{name}</p>
+					<div className="flex flex-col items-center mx-2">
+						<Icon size="1.5rem" />
+						<p className="text-[1rem]">{name}</p>
 					</div>
 				</div>
 			))}

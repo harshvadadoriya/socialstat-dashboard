@@ -3,6 +3,7 @@ import Logo from '../logo';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import Header from '../header';
 import { sideBarRoute } from '../../constant/sidebarRoutes';
+import Footer from '../footer/Footer';
 
 const Sidebar = () => {
 	const location = useLocation();
@@ -39,6 +40,7 @@ const Sidebar = () => {
 			<div className="flex flex-col w-full border-l-2 border-gray-50">
 				<Header />
 				<Outlet />
+				<Footer />
 			</div>
 		</div>
 	);

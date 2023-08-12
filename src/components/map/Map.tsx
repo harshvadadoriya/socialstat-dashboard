@@ -16,18 +16,18 @@ const Map = () => {
 					<table className="w-full text-left">
 						<thead>
 							<tr>
-								<th className="p-2">Country</th>
-								<th className="p-2">Visitors</th>
-								<th className="p-2">% Users</th>
+								<th className="p-2 text-gray-800">Country</th>
+								<th className="p-2 text-gray-800">Visitors</th>
+								<th className="p-2 text-gray-800">% Users</th>
 							</tr>
 						</thead>
 						<tbody>
 							{countriesData.map(
 								({ id, color, name, visitors, usersPercentage }) => (
 									<tr key={id}>
-										<td className="flex items-center p-2">
+										<td className="flex items-center p-2 py-4">
 											<span
-												className="inline-block w-2 h-2 rounded-full"
+												className="inline-block w-[0.6rem] h-[0.6rem] rounded-full"
 												style={{
 													backgroundColor: color,
 													marginRight: '0.5rem',
