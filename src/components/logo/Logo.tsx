@@ -5,7 +5,7 @@ const Logo = () => {
 	return (
 		<>
 			<NavLink to="/" className="w-max p-4 flex items-center">
-				<img src="/assets/logo.svg" alt="logo" />
+				<img src="/assets/Logo.svg" alt="logo" />
 			</NavLink>
 		</>
 	);
