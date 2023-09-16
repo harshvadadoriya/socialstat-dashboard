@@ -1,6 +1,6 @@
 import React from 'react';
 import Chart from '../../recharts/Chart';
-import { monthlyData } from '../../../constant/chartData';
+import { monthlyData } from '@constants/chartData';
 
 const Monthly = () => {
 	return (

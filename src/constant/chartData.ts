@@ -1,4 +1,4 @@
-import { ChartDataType } from '../interface/interface';
+import { ChartDataType } from '@interfaces/interface';
 
 export const dailyData: ChartDataType = [
 	{ time: '12:00', visitors: 1000 },

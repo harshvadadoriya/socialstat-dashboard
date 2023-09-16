@@ -1,12 +1,12 @@
 import React from 'react';
 import Logo from '../logo';
-import { NavLink, Outlet, useLocation } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import Header from '../header';
-import { sideBarRoute } from '../../constant/sidebarRoutes';
+import { sideBarRoute } from '@constants/sidebarRoutes';
 import Footer from '../footer/Footer';
+import SidebarNav from './sidebarNav';
 
 const Sidebar = () => {
-	const location = useLocation();
 	return (
 		<div className="flex min-h-screen ">
 			<div className="w-[15rem] overflow-hidden border-r">
@@ -14,25 +14,9 @@ const Sidebar = () => {
 					<div>
 						<Logo />
 						<ul className="mt-6 space-y-2 tracking-wide sidebar-nav">
-							{sideBarRoute.map(({ label, path, icon: Icon }) => {
-								return (
-									<li
-										key={path}
-										className={`min-w-max hover:bg-primary-red-light ${
-											location.pathname === path ? 'bg-primary-red-light' : ''
-										} `}
-									>
-										<NavLink to={path}>
-											<div className="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600">
-												<Icon className="group-hover:text-primary-red-dark" />
-												<span className="group-hover:text-primary-red-dark">
-													{label}
-												</span>
-											</div>
-										</NavLink>
-									</li>
-								);
-							})}
+							{sideBarRoute.map(({ label, path, icon: Icon }) => (
+								<SidebarNav key={path} label={label} path={path} icon={Icon} />
+							))}
 						</ul>
 					</div>
 				</div>

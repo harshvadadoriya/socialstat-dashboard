@@ -6,7 +6,7 @@ import {
 } from 'react-icons/ai';
 import { PiDribbbleLogoFill } from 'react-icons/pi';
 import { BsFacebook } from 'react-icons/bs';
-import { SocialItem } from '../interface/interface';
+import { SocialItem } from '@interfaces/interface';
 
 const socialData: SocialItem[] = [
 	{ id: 1, name: 'ADD', icon: AiOutlinePlus },

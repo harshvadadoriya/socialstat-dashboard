@@ -1,6 +1,6 @@
 import React from 'react';
 import Chart from '../../recharts/Chart';
-import { dailyData } from '../../../constant/chartData';
+import { dailyData } from '@constants/chartData';
 
 const Daily = () => {
 	return (

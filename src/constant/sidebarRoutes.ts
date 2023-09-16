@@ -4,7 +4,7 @@ import {
 	AiOutlineCrown,
 } from 'react-icons/ai';
 import { PiCalendarCheckLight, PiPlugsLight } from 'react-icons/pi';
-import { SideBarRouteType } from '../interface/interface';
+import { SideBarRouteType } from '@interfaces/interface';
 export const sideBarRoute: SideBarRouteType = [
 	{
 		label: 'Dashboard',

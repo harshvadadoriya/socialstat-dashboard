@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import Sidebar from './components/sidebar';
+import Sidebar from '@components/sidebar';
 import {
 	Route,
 	RouterProvider,
 	createBrowserRouter,
 	createRoutesFromElements,
 } from 'react-router-dom';
-import Home from './components/home';
-import Terms from './components/terms';
-import Condition from './components/condition';
-import PageNotFound from './components/pageNotFound';
+import Home from '@components/home';
+import Terms from '@components/terms';
+import Condition from '@components/condition';
+import PageNotFound from '@components/pageNotFound';
 
 const App = () => {
 	const router = createBrowserRouter(
