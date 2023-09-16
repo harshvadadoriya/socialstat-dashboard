@@ -1,6 +1,6 @@
 import React from 'react';
-import { countriesData } from '../../constant/countriesData';
-import { formatCount } from '../../utils/formatCount';
+import { countriesData } from '@constants/countriesData';
+import { formatCount } from '@utils/formatCount';
 
 const Map = () => {
 	return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { year } from '../../utils/currentYear';
+import { year } from '@utils/currentYear';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {

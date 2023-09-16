@@ -1,4 +1,4 @@
-import { StatisticItem } from '../interface/interface';
+import { StatisticItem } from '@interfaces/interface';
 
 const statisticData: StatisticItem[] = [
 	{

@@ -1,5 +1,5 @@
 import React from 'react';
-import socialData from '../../constant/social';
+import socialData from '@constants/social';
 import SocialItem from './socialItem/';
 
 const Social = () => {

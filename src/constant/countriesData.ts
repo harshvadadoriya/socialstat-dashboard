@@ -1,4 +1,4 @@
-import { TypeCountriesData } from '../interface/interface';
+import { TypeCountriesData } from '@interfaces/interface';
 
 export const countriesData: TypeCountriesData = [
 	{

@@ -11,10 +11,10 @@ import {
 	Area,
 	AreaChart,
 } from 'recharts';
-import randomNumber from '../../utils/randomNumber';
-import { barColors, formatNumber } from '../../utils/chartUtils';
-import { ChartDataType } from '../../interface/interface';
-import { formatCount } from '../../utils/formatCount';
+import randomNumber from '@utils/randomNumber';
+import { barColors, formatNumber } from '@utils/chartUtils';
+import { ChartDataType } from '@interfaces/interface';
+import { formatCount } from '@utils/formatCount';
 
 type ChartProps = {
 	chartType: 'line' | 'bar';

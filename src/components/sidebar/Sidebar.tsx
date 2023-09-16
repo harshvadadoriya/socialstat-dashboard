@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../logo';
 import { Outlet } from 'react-router-dom';
 import Header from '../header';
-import { sideBarRoute } from '../../constant/sidebarRoutes';
+import { sideBarRoute } from '@constants/sidebarRoutes';
 import Footer from '../footer/Footer';
 import SidebarNav from './sidebarNav';
 
